@@ -1,0 +1,41 @@
+.app-header {
+    height: 2.5rem;
+    width: 80vw;
+    margin: auto;
+    background-color: #272b2d;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 0.5px solid white;
+
+}
+
+.app-main {
+    width: 80vw;
+    margin: auto;
+    background-color: #272b2d;
+}
+
+.app-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.app-search > input {
+    border-radius: 4px;
+    height: 100%;
+    width: 20%;
+}
+
+.app-search > p {
+    color: white;
+}
+
+.app-articles {
+    display: flex;
+    flex-direction: column;
+}
